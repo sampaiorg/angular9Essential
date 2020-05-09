@@ -1,6 +1,8 @@
+import { Product } from './../product.model';
 import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { error } from '@angular/compiler/src/util';
 
 
 @Component({
@@ -10,7 +12,10 @@ import { Router } from '@angular/router';
 })
 export class ProductCreateComponent implements OnInit {
 
-  atributoLegal = "Qualquer";
+  product: Product = {
+    name: '',
+    price: null
+  }
 
   constructor(
     private productService: ProductService,
@@ -20,7 +25,10 @@ export class ProductCreateComponent implements OnInit {
   }
 
   createProduct(): void {
-    this.productService.showMessage('Produto Cadastrado com Sucesso!');
+    this.productService.create(this.product).subscribe(() => {
+      this.productService.showMessage('Produto Cadastrado com Sucesso!');
+      this.router.navigate(['/products']);
+    })
   }
 
   cancel() {

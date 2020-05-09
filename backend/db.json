@@ -1,20 +1,14 @@
 {
-  "products":
-  [
+  "products": [
     {
       "id": 1,
       "name": "Produto 1",
       "price": 5.89
     },
     {
-      "id": 2,
-      "name": "Produto 2",
-      "price": 10.32
-    },
-    {
-      "id": 3,
-      "name": "Produto 3",
-      "price": 1258.65
+      "name": "Teste de Insert",
+      "price": 698.36,
+      "id": 2
     }
   ]
 }
