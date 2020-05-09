@@ -1,39 +1,24 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Produto 1",
-      "price": 5.89
+      "name": "Lápis Preto",
+      "price": 1.99,
+      "id": 1
     },
     {
-      "name": "Teste de Insert",
-      "price": 698.36,
+      "name": "Caneta Azul",
+      "price": 5.36,
       "id": 2
     },
     {
-      "name": "Panela",
-      "price": 1.99,
+      "name": "Tesoura Plástica",
+      "price": 8.95,
       "id": 3
     },
     {
-      "name": "Caneta Preta",
-      "price": 565.01,
+      "name": "Notebook",
+      "price": 3256.89,
       "id": 4
-    },
-    {
-      "name": "Monitor Preto",
-      "price": 5405,
-      "id": 5
-    },
-    {
-      "name": "tijolo",
-      "price": 598.65,
-      "id": 6
-    },
-    {
-      "name": "Rafael Sampaio",
-      "price": 324,
-      "id": 7
     }
   ]
 }
