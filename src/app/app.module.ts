@@ -20,8 +20,10 @@ import { MatInputModule } from '@angular/material/input';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -32,7 +34,8 @@ import { FormsModule } from '@angular/forms';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,

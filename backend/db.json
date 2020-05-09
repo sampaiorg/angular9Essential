@@ -9,6 +9,31 @@
       "name": "Teste de Insert",
       "price": 698.36,
       "id": 2
+    },
+    {
+      "name": "Panela",
+      "price": 1.99,
+      "id": 3
+    },
+    {
+      "name": "Caneta Preta",
+      "price": 565.01,
+      "id": 4
+    },
+    {
+      "name": "Monitor Preto",
+      "price": 5405,
+      "id": 5
+    },
+    {
+      "name": "tijolo",
+      "price": 598.65,
+      "id": 6
+    },
+    {
+      "name": "Rafael Sampaio",
+      "price": 324,
+      "id": 7
     }
   ]
 }
