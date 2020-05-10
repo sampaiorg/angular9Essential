@@ -1,3 +1,4 @@
+import { Observable } from 'rxjs';
 import { Product } from './../product.model';
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service';
@@ -37,5 +38,6 @@ export class ProductUpdateComponent implements OnInit {
   cancel(): void {
     this.router.navigate(['/products']);
   }
+
 
 }

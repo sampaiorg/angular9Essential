@@ -1,29 +1,9 @@
 {
   "products": [
     {
-      "name": "Lápis Preto Ponta Fina",
-      "price": 1.99,
+      "name": "sfsdfdfgdfgsdfsdf",
+      "price": 23432,
       "id": 1
-    },
-    {
-      "name": "Caneta Azul Bic",
-      "price": 11.9,
-      "id": 2
-    },
-    {
-      "name": "Tesoura Sem Ponta",
-      "price": 8.95,
-      "id": 3
-    },
-    {
-      "name": "Notebook",
-      "price": 3256.89,
-      "id": 4
-    },
-    {
-      "name": "Backstage Shampoo + Condicionador 1LT Vizet Profissional",
-      "price": 189.99,
-      "id": 5
     }
   ]
 }
